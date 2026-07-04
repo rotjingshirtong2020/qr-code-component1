@@ -1,0 +1,63 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Outfit',sans-serif;
+    background:#d6e2f0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* Center Container */
+
+.container{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Card */
+
+.card{
+
+    background:#fff;
+    width:320px;
+    padding:16px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 15px 30px rgba(0,0,0,.12);
+}
+
+/* QR Image */
+.card img{
+    width:100%;
+    border-radius:12px;
+    margin-bottom:22px;
+}
+
+/* Heading */
+.card h2{
+
+    color:#1f3251;
+    font-size:23px;
+    font-weight:700;
+    line-height:1.3;
+    margin-bottom:18px;
+}
+
+/* Paragraph */
+
+.card p{
+    color:#7b879d;
+    font-size:15px;
+    line-height:1.6;
+    margin-bottom:20px;
+}
